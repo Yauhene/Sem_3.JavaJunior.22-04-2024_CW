@@ -92,6 +92,7 @@ public class JDBC {
     try (PreparedStatement preparedStatement = connection.prepareStatement("delete from person where id = ?1 and name = ?2")) {
       preparedStatement.setLong(1, Integer.parseInt(idParameter));
       preparedStatement.setString(2, "Igor");
+      System.out.println("preparedStatement: \n" + "    " + preparedStatement);
       int deletedRowsCount = preparedStatement.executeUpdate();
       System.out.println("Удалено строк: " + deletedRowsCount);
     }
