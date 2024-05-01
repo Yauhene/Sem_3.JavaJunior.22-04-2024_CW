@@ -1,10 +1,8 @@
 package lesson3;
 
-import java.awt.datatransfer.ClipboardOwner;
 import java.sql.*;
-import java.util.UUID;
 
-public class Homework {
+public class OldHomework {
 
   /**
    * Повторить все, что было на семниаре на таблице Student с полями

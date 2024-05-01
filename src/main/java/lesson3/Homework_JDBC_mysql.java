@@ -2,7 +2,7 @@ package lesson3;
 
 import java.sql.*;
 
-public class JDBC_mysql {
+public class Homework_JDBC_mysql {
 
   public static void main(String[] args) {
 
